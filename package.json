@@ -1,0 +1,39 @@
+{
+  "name": "@rajesh-deora/logshield-node",
+  "version": "2.1.1",
+  "description": "Automatic error monitoring and real-time Slack alerts for Node.js applications.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "keywords": [
+    "logging",
+    "monitoring",
+    "slack",
+    "alerts",
+    "error-tracking",
+    "nodejs",
+    "express",
+    "serverless",
+    "no-backend"
+  ],
+  "author": "Rajesh Deora",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajesh-deora/logshield-node"
+  }
+}
